@@ -16,8 +16,6 @@ Pod::Spec.new do |s|
   s.dependency 'UAObfuscatedString', '~> 0.3.2'
   s.dependency 'DTFoundation/DTASN1', '1.7.13'
   
-  s.source = { :http => 'https://github.com/scalemonk/ios-deviceinfo-framework/releases/download/0.1.1/SMDeviceInfo.framework.zip' }
-
   s.vendored_frameworks = "SMDeviceInfo.framework"
 end
 
